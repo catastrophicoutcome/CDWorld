@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Unbounded";
+    src: url('../fonts/Undounded/Unbounded-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: Unbounded;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    padding: 12px 0px;
+    background: linear-gradient(to right, #ff8566, #feb47b);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+h1 {
+    text-align: center;
+}
+
+.product_card {
+    display: block;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 8px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(200, 200, 200);
+}
+
+.product_card:hover {
+    transition: 250ms;
+    transform: scale(105%);
+}
+
+.cart_button {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 8px;
+    background-color: black;
+    color: white;
+    width: 100%;
+
+}
+
+.product_card img {
+    width: 100%;
+}
+
+.logo_link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.logo_link p {
+    margin: 0px 4px;
+    font-size: 24px;
+}
+
+.logo_link:hover {
+    transition: 100ms;
+    transform: scale(110%);
+    color: black;
+}
+
+.row>* {
+    padding: 0;
+}
+
+h1 {
+    color: white;
+}
+
+.nav_link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    transition: 100ms;
+    transform: scale(110%);
+    color: black;
+}
+
+hr {
+    color: black;
+    height: 2px;
+}
+
+.order_form {
+    background: linear-gradient(to right, #ff8566, #feb47b);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 100%;
+}
+
+img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.social_icon {
+    margin: 0px 4px;
+    width: 32px;
+    height: 32px;
+}
+
+.social_icon:hover {
+    transition: 250ms;
+    transform: scale(110%);
+}
+
+.advantage_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    text-align: center;
+    height: 100%;
+    padding: 12px;
+    margin: 0px 12px;
+    border-radius: 20px;
+}
+
+.advantage_card_label {
+    font-weight: bold
+}
+
+.map {
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(200, 200, 200);
+    width: 50%;
+}
+
+footer {
+    padding: 24px 0px;
+}

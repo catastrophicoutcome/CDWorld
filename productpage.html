@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница товара</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/productpage.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="d-flex justify-content-between">
+                <a href="mainpage.html" class="logo_link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="blackr" class="bi bi-disc"
+                        viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                        <path
+                            d="M10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0M8 4a4 4 0 0 0-4 4 .5.5 0 0 1-1 0 5 5 0 0 1 5-5 .5.5 0 0 1 0 1m4.5 3.5a.5.5 0 0 1 .5.5 5 5 0 0 1-5 5 .5.5 0 0 1 0-1 4 4 0 0 0 4-4 .5.5 0 0 1 .5-.5" />
+                    </svg>
+                    <p>CDWorld</p>
+                </a>
+                <div class="d-flex align-items-center gap-4">
+                    <a href="mainpage.html#about" class="nav_link">О нас</a>
+                    <a href="mainpage.html#advantages" class="nav_link">Преимущества</a>
+                    <a href="mainpage.html#catalog" class="nav_link">Каталог</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="cover">
+                        <img src="img/Around the Fur.jpg" alt="album_cover" class="album_cover">
+                        <button type="button" class="play_button">
+                            <svg id="play_circle" xmlns="http://www.w3.org/2000/svg" width="128" height="128"
+                                fill="white" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z" />
+                            </svg>
+                            <svg id="pause_circle" xmlns="http://www.w3.org/2000/svg" width="128" height="128"
+                                fill="white" class="bi bi-pause-circle-fill hidden" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.25 5C5.56 5 5 5.56 5 6.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C7.5 5.56 6.94 5 6.25 5m3.5 0c-.69 0-1.25.56-1.25 1.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C11 5.56 10.44 5 9.75 5" />
+                            </svg>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <form action="" class="order_form">
+                        <div class="mx-5">
+                            <h1 class="text-center text-black py-4">Оформление заказа</h1>
+                            <div class="d-flex flex-column my-2">
+                                <label for="client_number">Номер телефона</label>
+                                <input type="tel" name="client_number" id="client_number"
+                                    placeholder="+7 999-999-99-99">
+                            </div>
+                            <div class="d-flex flex-column my-2">
+                                <label for="client_email">Введите Email</label>
+                                <input type="email" name="client_email" id="client_email"
+                                    placeholder="example@gmail.com">
+                            </div>
+                            <div class="d-flex flex-column my-2">
+                                <label for="client_address">Введите адрес</label>
+                                <input type="text" name="client_address" id="client_address" placeholder="ул. Иванова">
+                            </div>
+                            <div class="d-flex my-2">
+                                <input type="checkbox" name="privacy" id="privacy" class="me-2" style="width: 20px;">
+                                <label for="privacy" style="text-align: justify;">Я согласен(на) с условиями обработки
+                                    персональных данных</label>
+                            </div>
+                            <input type="submit" value="Заказать" class="w-100">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+    <script src="js.js"></script>
+</body>
+
+</html>
