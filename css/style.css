@@ -139,6 +139,10 @@ img {
     border-radius: 20px;
 }
 
+.advantage_card>* {
+    padding: 12px;
+}
+
 .advantage_card_label {
     font-weight: bold
 }
