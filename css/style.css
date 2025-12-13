@@ -40,18 +40,23 @@ h1 {
     transform: scale(105%);
 }
 
-.cart_button {
+.card_button {
     display: flex;
     flex-direction: column;
     align-self: flex-end;
-    border: 0;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 8px;
     margin-top: 8px;
     background-color: black;
     color: white;
     width: 100%;
+    text-wrap-mode: nowrap;
+}
 
+.card_button:hover {
+    background-color: white;
+    color: black;
 }
 
 .product_card img {
